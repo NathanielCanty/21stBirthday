@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="first.css">
+    <title>Page1</title></head>
+    <script>
+        function showCustomAlert() {
+    var imgalert = document.getElementById('imgalert');
+    imgalert.style.display = 'block';
+    
+    setTimeout(function() { window.alert("BRUHH -_-"); }, 500)
+  }
+  
+  function hideCustomAlert() {
+    var imgalert = document.getElementById('imgalert');
+    imgalert.style.display = 'none';
+  }
+    </script>
+<body>
+    <div id="page" class="page" onscroll="">
+    <div id="main">
+    <h1>Welcome to this love-dovey-cringey website !</h1>
+    <h2><b>(A lil present, hope you like it <33)</b></h2>
+    </div>
+    <div class="outercontainer">
+    <div class="innercontainer">
+        <div id="question">
+            <p><b>Do you love me?(CHOOSE YES)</b></p>
+        </div>
+        <div id="buttons">
+            <button class="b1" onclick="window.location.href = 'sec.html'">YES</button>
+            <button class="b2" onclick="showCustomAlert()">NO</button>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div id="imgalert" class="imgalert">
+        <button class="close" onclick="hideCustomAlert()">&times;</button>
+    </div>
+</body>
+</html>
