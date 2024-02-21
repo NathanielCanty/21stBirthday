@@ -1,0 +1,19 @@
+body{
+    background-image: url("bg2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 30px 20px;
+}
+
+#card{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#back:hover{
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}

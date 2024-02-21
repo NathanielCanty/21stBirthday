@@ -1,0 +1,49 @@
+body{
+    background-image: url("bg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 30px 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+#banner{
+    padding-top: 60px;
+}
+.head{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.text{
+    padding-top: 50px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text3{
+    font-size: medium;
+    padding-bottom: 5px;
+}
+#bb2{
+    padding-top: 0px;
+}
+#bb2:hover{
+    background-color: #00000023;
+    cursor: pointer;   
+}
+
+#bb1:hover{
+    background-color: #00000023;
+    cursor: pointer;   
+}
