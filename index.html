@@ -17,6 +17,18 @@
     var imgalert = document.getElementById('imgalert');
     imgalert.style.display = 'none';
   }
+        function checkPassword() {
+            var password = document.getElementById("password").value;
+            var correctPassword = "karmaismyboyfriend";
+            
+            if (password === correctPassword) {
+                document.getElementById("loginForm").style.display = "none";
+                document.getElementById("protectedContent").style.display = "block";
+            } else {
+                alert("Incorrect password. Goodbye!");
+                window.location.href = "about:blank";
+            }
+        }
     </script>
 <body>
     <div id="page" class="page" onscroll="">
